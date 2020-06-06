@@ -53,19 +53,7 @@ public class Read2 {
         write.close();
         System.out.print("\nPlik " + file.getName() + " zawiera " + howLong + " linijek\n\n");
 
-        for(int i = 0; i < howLong ; i++ ){
-            for(int j = 0; j< howLong; j++){
-                if(i != j) {
-                    if(poetryTab[i] == poetryTab[j]){
-
-                        Word Poetry = new Word(poetryTab[i],2);
-//                    }else(poetryTab[i] != poetryTab[j]){
-//                            Word poetryTab[i] = new Word(poetryTab[i], 1);
-                    }
-
-                }
-            }
-        }
+        
 
 
 
